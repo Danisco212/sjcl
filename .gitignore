@@ -10,3 +10,4 @@ compress/compiler-latest.zip
 # ########## #
 ~*
 *.swp
+.idea

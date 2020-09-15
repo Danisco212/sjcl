@@ -3,6 +3,7 @@
   "version": "1.0.8",
   "description": "Stanford Javascript Crypto Library",
   "main": "sjcl.js",
+  "files": ["sjcl.js"],
   "author": "bitwiseshiftleft",
   "license": "(BSD-2-Clause OR GPL-2.0-only)",
   "homepage": "https://github.com/bitwiseshiftleft/sjcl",
@@ -27,7 +28,5 @@
     "node": "*"
   },
   "devDependencies": {
-    "eslint": "^2.11.1",
-    "jsdoc": "3.4.0"
   }
 }
