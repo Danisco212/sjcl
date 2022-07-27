@@ -1765,8 +1765,8 @@ sjcl.random = new sjcl.prng(6);
 
     } else if (typeof window !== 'undefined' && typeof Uint32Array !== 'undefined') {
       ab = new Uint32Array(32);
-      if (window.crypto && window.crypto.getRandomValues) {
-        window.crypto.getRandomValues(ab);
+      if (self.crypto && self.crypto.getRandomValues) {
+        self.crypto.getRandomValues(ab);
       } else if (window.msCrypto && window.msCrypto.getRandomValues) {
         window.msCrypto.getRandomValues(ab);
       } else {
